@@ -55,6 +55,10 @@ const routes: Routes = [
     path: 'button',
     loadChildren: () => import('./button/button.module').then( m => m.ButtonPageModule)
   },
+  {
+    path: 'registro',
+    loadChildren: () => import('./registro/registro.module').then( m => m.RegistroPageModule)
+  },
   
 ];
 
